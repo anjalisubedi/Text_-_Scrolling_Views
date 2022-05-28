@@ -1,16 +1,18 @@
 # Two Activities Challange
 
-Here the design of Hello Toast has been used where insted of TOAST button a button SAY HELLO has been added. While clicking this button it 
-opens another activity using Intent.
+Here three buttons are used to connect three different activity using Intent 
 
-The following activity shows the design of the application
 
-<img width="332" alt="Hello-toast-Intent" src="https://user-images.githubusercontent.com/50906104/170835742-c5a1318e-6128-4961-9bc6-137b8d5a1bee.png">
+<img width="332" alt="three-buttons" src="https://user-images.githubusercontent.com/50906104/170836105-212cd5db-02dc-47ca-a00e-a9b72935313e.png">
 
-The COUNT button still works the same way
+The first button connects to text one activitiy from where the back button on the toolbar can return to the previous activity
 
-<img width="332" alt="Incrementing-count" src="https://user-images.githubusercontent.com/50906104/170835823-b3b5d9bb-615c-4eff-a72f-cbdd926122d6.png">
+<img width="332" alt="Text One" src="https://user-images.githubusercontent.com/50906104/170836127-d6c3c6a0-595a-4740-9028-70fb4090cec7.png">
 
-When the SAY HELLO button is clicked it, it start another activity where the count value is send as extra
+Similarly, when the second button is clicked it takes to text two activity
 
-<img width="332" alt="Second-activity" src="https://user-images.githubusercontent.com/50906104/170835917-eeb50a0a-a319-4cc0-9089-f4171b98ac46.png">
+<img width="332" alt="Text Two" src="https://user-images.githubusercontent.com/50906104/170836227-57a99644-0c58-4cc7-bfab-670d987d7d23.png">
+
+Same is done while the third button is clicked it takes to the text three activity
+
+<img width="332" alt="Text Three" src="https://user-images.githubusercontent.com/50906104/170836276-e7c2fe7d-0461-475c-88f1-bc5ab4626780.png">
